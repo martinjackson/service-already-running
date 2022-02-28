@@ -9,7 +9,7 @@ module.exports = {
   devtool: "source-map",
 
   entry: path.join(__dirname, "./src/index.js"),
-  target: "web",
+  target: 'node',
   output: {
     publicPath: "/lib/",
     path: path.join(__dirname, "lib"),
