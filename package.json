@@ -1,0 +1,32 @@
+{
+  "name": "service-already-running",
+  "version": "1.24.4",
+  "description": "functions to get a list of all processes launched the way this process was launched.",
+  "main": "./service-already-running.mjs",
+  "scripts": {
+    "dry": "release-it --dry-run -n --no-git.requireCleanWorkingDir",
+    "pub": "release-it --no-git.requireCleanWorkingDir"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/martinjackson/service-already-running.git"
+  },
+  "keywords": [
+    "NodeJS",
+    "Express",
+    "service",
+    "server"
+  ],
+  "author": "Martin A. Jackson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/martinjackson/service-already-running/issues"
+  },
+  "homepage": "https://github.com/martinjackson/service-already-running#readme",
+  "devDependencies": {
+    "release-it": "^14.12.5"
+  },
+  "dependencies": {
+    "ps-list": "^8.1.0"
+  }
+}
