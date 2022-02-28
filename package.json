@@ -1,6 +1,6 @@
 {
   "name": "service-already-running",
-  "version": "0.0.0",
+  "version": "",
   "description": "functions to get a list of all processes launched the way this process was launched.",
   "main": "./lib/index.js",
   "scripts": {
